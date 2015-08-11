@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
 
   resources :compromisses
+  resources :test
   # The priority is based upocompromissesn order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
